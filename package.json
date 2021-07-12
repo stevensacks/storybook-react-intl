@@ -1,17 +1,20 @@
 {
-  "name": "storybook-addon-kit",
-  "version": "0.0.0",
-  "description": "everything you need to build a Storybook addon",
+  "name": "storybook-react-intl",
+  "version": "0.9.0",
+  "description": "Add react-intl support to Storybook",
   "keywords": [
     "storybook-addons",
-    "style",
-    "test"
+    "storybook-i18n",
+    "react-intl",
+    "i18n",
+    "localization",
+    "internationalization"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/storybookjs/storybook-addon-kit"
+    "url": "https://github.com/stevensacks/storybook-react-intl"
   },
-  "author": "winkerVSbecks",
+  "author": "Steven Sacks",
   "license": "MIT",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -38,6 +41,9 @@
     "prerelease": "zx scripts/prepublish-checks.mjs",
     "release": "yarn build && auto shipit",
     "eject-ts": "zx scripts/eject-typescript.mjs"
+  },
+  "dependencies": {
+    "react-intl": "^5.20.4"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.1",
@@ -67,7 +73,8 @@
     "@storybook/core-events": "^6.2.9",
     "@storybook/theming": "^6.2.9",
     "react": "^16.8.0 || ^17.0.0",
-    "react-dom": "^16.8.0 || ^17.0.0"
+    "react-dom": "^16.8.0 || ^17.0.0",
+    "react-intl": "^5.20.4"
   },
   "peerDependenciesMeta": {
     "react": {
@@ -81,11 +88,9 @@
     "access": "public"
   },
   "storybook": {
-    "displayName": "Addon Kit",
+    "displayName": "Storybook react-intl addon",
     "supportedFrameworks": [
-      "react",
-      "vue",
-      "angular"
+      "react"
     ],
     "icon": "https://user-images.githubusercontent.com/321738/63501763-88dbf600-c4cc-11e9-96cd-94adadc2fd72.png"
   }
