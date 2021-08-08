@@ -7,20 +7,21 @@ import {useGlobals} from '@storybook/client-api';
 const withReactIntl = (story: StoryGetter, context: StoryContext) => {
   const [{locale}] = useGlobals();
   const {
-    parameters: {reactIntl},
+    parameters: {reactIntl, locale: defaultLocale },
   } = context;
+  const currentLocale = locale || defaultLocale;
 
-  if (locale && reactIntl) {
+  if (currentLocale && reactIntl) {
     const {formats, messages} = reactIntl;
-    const safeFormats = formats ? formats[locale] : undefined;
+    const safeFormats = formats ? formats[currentLocale] : undefined;
     if (messages) {
       return (
         <IntlProvider
           key={locale}
           formats={safeFormats}
-          messages={messages[locale]}
-          locale={locale}
-          defaultLocale={context.parameters.locale}
+          messages={messages[currentLocale]}
+          locale={currentLocale}
+          defaultLocale={defaultLocale}
         >
           {story(context)}
         </IntlProvider>
