@@ -1,3 +1,16 @@
+# v0.9.4 (Wed Dec 22 2021)
+
+#### ⚠️ Pushed to `main`
+
+- fix(package): merge conflicts ([@stevensacks](https://github.com/stevensacks))
+- chore(deps): update to storybook 6.4 ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v0.9.3 (Wed Dec 22 2021)
 
 #### ⚠️ Pushed to `main`
