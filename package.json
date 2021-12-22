@@ -44,7 +44,7 @@
   },
   "dependencies": {
     "react-intl": "^5.24.0",
-    "storybook-i18n": "^1.0.7"
+    "storybook-i18n": "^1.0.8"
   },
   "devDependencies": {
     "@babel/cli": "^7.16.0",
@@ -53,6 +53,11 @@
     "@babel/preset-react": "^7.16.5",
     "@babel/preset-typescript": "^7.16.5",
     "@storybook/addon-essentials": "^6.4.9",
+    "@storybook/addons": "^6.4.9",
+    "@storybook/api": "^6.4.9",
+    "@storybook/components": "^6.4.9",
+    "@storybook/core-events": "^6.4.9",
+    "@storybook/theming": "^6.4.9",
     "@storybook/react": "^6.4.9",
     "auto": "^10.32.5",
     "babel-loader": "^8.2.3",
@@ -68,15 +73,15 @@
     "zx": "1.14.1"
   },
   "peerDependencies": {
-    "@storybook/addons": "^6.2.9",
-    "@storybook/api": "^6.2.9",
-    "@storybook/components": "^6.2.9",
-    "@storybook/core-events": "^6.2.9",
-    "@storybook/theming": "^6.2.9",
+    "@storybook/addons": "^6.4.9",
+    "@storybook/api": "^6.4.9",
+    "@storybook/components": "^6.4.9",
+    "@storybook/core-events": "^6.4.9",
+    "@storybook/theming": "^6.4.9",
     "react": "^16.8.0 || ^17.0.0",
     "react-dom": "^16.8.0 || ^17.0.0",
-    "react-intl": "^5.20.4",
-    "storybook-i18n": "^1.0.3"
+    "react-intl": "^5.24.0",
+    "storybook-i18n": "^1.0.7"
   },
   "peerDependenciesMeta": {
     "react": {
