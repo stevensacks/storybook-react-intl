@@ -1,3 +1,16 @@
+# v1.0.2 (Wed Dec 22 2021)
+
+#### ⚠️ Pushed to `main`
+
+- Merge branch 'main' of github.com:stevensacks/storybook-react-intl ([@stevensacks](https://github.com/stevensacks))
+- chore(deps): update peer dependencies ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v0.9.4 (Wed Dec 22 2021)
 
 #### ⚠️ Pushed to `main`
