@@ -44,13 +44,6 @@ Create a file in your `.storybook` folder called `reactIntl.js` (or whatever you
 
 In this file, copy and paste the below code and make whatever modifications you need.
 ```javascript
-import {addLocaleData} from 'react-intl';
-import enLocaleData from 'react-intl/locale-data/en';
-import deLocaleData from 'react-intl/locale-data/de';
-
-addLocaleData(enLocaleData);
-addLocaleData(deLocaleData);
-
 const locales = ['en', 'de'];
 
 const messages = locales.reduce((acc, lang) => ({
@@ -58,7 +51,7 @@ const messages = locales.reduce((acc, lang) => ({
   [lang]: require(`../locale/${lang}.json`), // whatever the relative path to your messages json is
 }), {});
 
-const formats = {}; // if you have any formats
+const formats = {}; // optional, if you have any formats
 
 export const reactIntl = {
   defaultLocale: 'en',
@@ -88,6 +81,19 @@ export const parameters = {
   },
 };
 ```
+
+You can also set locales to Storybook compatible objects as [documented in the storybook-i18n](https://github.com/stevensacks/storybook-i18n#end-users) addon (which is included as part of this addon).
+
+```javascript
+export const parameters = {
+    locales: {
+        en: {title: "English", left: '🇺🇸'},
+        fr: {title: "Français", left: '🇫🇷'},
+        ja: {title: "日本語", left: '🇯🇵'},
+    },
+};
+```
+
 ---
 Once you have finished these steps and launch storybook, you should see a globe icon in the toolbar.
 
