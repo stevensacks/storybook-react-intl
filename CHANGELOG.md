@@ -1,3 +1,15 @@
+# v0.9.3 (Wed Dec 22 2021)
+
+#### ⚠️ Pushed to `main`
+
+- docs(README): update usage instructions ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v0.9.2 (Sun Sep 12 2021)
 
 #### 🐛 Bug Fix
