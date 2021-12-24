@@ -1,3 +1,15 @@
+# v1.0.3 (Fri Dec 24 2021)
+
+#### ⚠️ Pushed to `main`
+
+- fix(deps): remove storybook-i18n as peer dependency ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v1.0.2 (Wed Dec 22 2021)
 
 #### ⚠️ Pushed to `main`
