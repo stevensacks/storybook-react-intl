@@ -1,3 +1,16 @@
+# v1.0.5 (Mon Jan 31 2022)
+
+#### ⚠️ Pushed to `main`
+
+- Merge branch 'main' of github.com:stevensacks/storybook-react-intl ([@stevensacks](https://github.com/stevensacks))
+- fix(hooks): use storybook hooks instead of react ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v1.0.4 (Tue Jan 04 2022)
 
 #### ⚠️ Pushed to `main`
