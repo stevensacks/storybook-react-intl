@@ -3,8 +3,8 @@
 Add react-intl support to Storybook.
 
 Required Versions:
-* storybook - `^6.4.17`
-* react-intl - `^5.24.0`
+* storybook - `^6.5.0`
+* react-intl - `^5.24.0 || ^6.0.0`
 
 This Storybook addon assumes your project is already set up with [react-intl](https://formatjs.io/docs/react-intl/), and that it is properly configured and working.
 
