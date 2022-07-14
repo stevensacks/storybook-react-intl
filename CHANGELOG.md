@@ -1,3 +1,16 @@
+# v1.0.6 (Thu Jul 14 2022)
+
+#### ⚠️ Pushed to `main`
+
+- fix(ReactIntl): type issue with storybook story ([@stevensacks](https://github.com/stevensacks))
+- chore(deps): add support for SB 6.5, React 18, Intl 6 ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v1.0.5 (Mon Jan 31 2022)
 
 #### ⚠️ Pushed to `main`
