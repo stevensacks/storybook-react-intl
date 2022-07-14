@@ -29,7 +29,7 @@ export const withReactIntl = (
                     locale={currentLocale}
                     defaultLocale={defaultLocale}
                 >
-                    {story(context)}
+                    <>{story(context)}</>
                 </IntlProvider>
             );
         }
