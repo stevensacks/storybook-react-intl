@@ -1,3 +1,19 @@
+# v1.1.4 (Fri Apr 07 2023)
+
+#### ⚠️ Pushed to `main`
+
+- remove hot ([@stevensacks](https://github.com/stevensacks))
+- fix type issue ([@stevensacks](https://github.com/stevensacks))
+- fix yarn lock ([@stevensacks](https://github.com/stevensacks))
+- fix merge ([@stevensacks](https://github.com/stevensacks))
+- set up and working ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v1.1.2 (Fri Apr 07 2023)
 
 #### 🐛 Bug Fix
