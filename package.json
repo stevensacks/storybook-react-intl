@@ -1,6 +1,6 @@
 {
   "name": "storybook-react-intl",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Add react-intl support to Storybook",
   "keywords": [
     "storybook-addons",
@@ -43,7 +43,7 @@
     "eject-ts": "zx scripts/eject-typescript.mjs"
   },
   "dependencies": {
-    "storybook-i18n": "^1.1.2"
+    "storybook-i18n": "^1.1.4"
   },
   "devDependencies": {
     "@babel/cli": "^7.18.6",
@@ -51,13 +51,13 @@
     "@babel/preset-env": "^7.18.6",
     "@babel/preset-react": "^7.18.6",
     "@babel/preset-typescript": "^7.18.6",
-    "@storybook/addon-essentials": "^6.5.9",
-    "@storybook/addons": "^6.5.9",
-    "@storybook/api": "^6.5.9",
-    "@storybook/components": "^6.5.9",
-    "@storybook/core-events": "^6.5.9",
-    "@storybook/react": "^6.5.9",
-    "@storybook/theming": "^6.5.9",
+    "@storybook/addon-essentials": "^6.5.15",
+    "@storybook/addons": "^6.5.15",
+    "@storybook/api": "^6.5.15",
+    "@storybook/components": "^6.5.15",
+    "@storybook/core-events": "^6.5.15",
+    "@storybook/react": "^6.5.15",
+    "@storybook/theming": "^6.5.15",
     "auto": "^10.37.1",
     "babel-loader": "^8.2.5",
     "boxen": "^5.1.2",
@@ -65,9 +65,9 @@
     "dedent": "^0.7.0",
     "prettier": "^2.7.1",
     "prop-types": "^15.8.1",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-intl": "6.0.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-intl": "6.2.5",
     "rimraf": "^3.0.2",
     "typescript": "^4.7.4",
     "zx": "1.14.1"
