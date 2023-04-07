@@ -138,3 +138,7 @@ Once you have finished these steps and launch storybook, you should see a globe 
 Clicking this globe icon will show a dropdown with the locales you defined.
 
 Switching locales will use the strings defined in your messages.
+
+## Migrating to Storybook 7
+
+In `.storybook/preview.ts`, move the locale/locales to be under `globals` instead of `parameters`.
