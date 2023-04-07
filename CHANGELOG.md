@@ -1,3 +1,20 @@
+# v1.1.2 (Fri Apr 07 2023)
+
+#### 🐛 Bug Fix
+
+- chore: Update storybook depencies [#8](https://github.com/stevensacks/storybook-react-intl/pull/8) ([@rodrigofeijao](https://github.com/rodrigofeijao))
+
+#### ⚠️ Pushed to `main`
+
+- Merge branch 'main' of github.com:stevensacks/storybook-react-intl ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 2
+
+- Rodrigo Feijao ([@rodrigofeijao](https://github.com/rodrigofeijao))
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v1.0.6 (Thu Jul 14 2022)
 
 #### ⚠️ Pushed to `main`
