@@ -69,7 +69,7 @@ export const reactIntl = {
 ---
 
 ### preview.ts
-In your `preview.ts`, you need to add the `locales` and `locale` globals, as well as a `reactIntl` parameter that you exported from the above file.
+In your `preview.ts`, you need to add the `locales` and `locale` to globals, as well as add `reactIntl` that you exported from the above file to parameters.
 
 `locales` is an object where the keys are the "ids" of the locales/languages and the values are the names you want to display in the dropdown.
 
@@ -90,6 +90,8 @@ const preview: Preview = {
         reactIntl,
     }
 };
+
+export default preview;
 ```
 
 You can also set locales to Storybook compatible objects as [documented in the storybook-i18n](https://github.com/stevensacks/storybook-i18n#end-users) addon (which is included as part of this addon).
@@ -110,6 +112,8 @@ const preview: Preview = {
         reactIntl,
     }
 };
+
+export default preview;
 ```
 
 ## Story Parameters Locale
