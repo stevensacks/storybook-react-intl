@@ -11,26 +11,26 @@ const meta: Meta = {
 export default meta;
 
 export const Default: StoryObj = {
-    render: Test,
+    render: () => <Test />,
 };
 
 export const English: StoryObj = {
     parameters: {
         locale: 'en',
     },
-    render: Test,
+    render: () => <Test />,
 };
 
 export const French: StoryObj = {
     parameters: {
         locale: 'fr',
     },
-    render: Test,
+    render: () => <Test />,
 };
 
 export const Japanese: StoryObj = {
     parameters: {
         locale: 'ja',
     },
-    render: Test,
+    render: () => <Test />,
 };
