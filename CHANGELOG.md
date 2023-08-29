@@ -1,3 +1,21 @@
+# v2.0.3 (Tue Aug 29 2023)
+
+#### 🐛 Bug Fix
+
+- Chore: Update minor/patch dependencies [#9](https://github.com/stevensacks/storybook-react-intl/pull/9) ([@timgcarlson](https://github.com/timgcarlson))
+
+#### ⚠️ Pushed to `main`
+
+- merge: fix merge conflicts ([@stevensacks](https://github.com/stevensacks))
+- chore: update storybook-i18n and storybook ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 2
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+- Tim Carlson ([@timgcarlson](https://github.com/timgcarlson))
+
+---
+
 # v2.0.2 (Mon May 29 2023)
 
 #### ⚠️ Pushed to `main`
