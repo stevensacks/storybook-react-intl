@@ -18,7 +18,7 @@ export const withReactIntl = (
     const currentLocale = locale || defaultLocale;
 
     if (currentLocale && reactIntl) {
-        const {formats, messages} = reactIntl;
+        const {formats, messages, defaultRichTextElements} = reactIntl;
         const safeFormats = formats ? formats[currentLocale] : undefined;
         if (messages) {
             return (
@@ -28,6 +28,7 @@ export const withReactIntl = (
                     messages={messages[currentLocale]}
                     locale={currentLocale}
                     defaultLocale={defaultLocale}
+                    defaultRichTextElements={defaultRichTextElements}
                 >
                     <>{story(context)}</>
                 </IntlProvider>
