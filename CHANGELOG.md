@@ -31,6 +31,31 @@
 
 #### ⚠️ Pushed to `main`
 
+- remove unnecessary peer deps ([@stevensacks](https://github.com/stevensacks))
+- add boxen ([@stevensacks](https://github.com/stevensacks))
+- update addonkit to latest ([@stevensacks](https://github.com/stevensacks))
+- update script ([@stevensacks](https://github.com/stevensacks))
+- update tsup config ([@stevensacks](https://github.com/stevensacks))
+- update scripts ([@stevensacks](https://github.com/stevensacks))
+- update deps ([@stevensacks](https://github.com/stevensacks))
+- chore: update gitignore ([@stevensacks](https://github.com/stevensacks))
+- chore: repository url fix ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 2
+
+- Rıdvan Karadağ ([@ridvankaradag](https://github.com/ridvankaradag))
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
+# v2.0.4 (Mon Nov 27 2023)
+
+#### 🐛 Bug Fix
+
+- feat: add support for 'defaultRichTextElements' in IntlProvider [#10](https://github.com/stevensacks/storybook-react-intl/pull/10) ([@ridvankaradag](https://github.com/ridvankaradag))
+
+#### ⚠️ Pushed to `main`
+
 - chore: update gitignore ([@stevensacks](https://github.com/stevensacks))
 - chore: repository url fix ([@stevensacks](https://github.com/stevensacks))
 
