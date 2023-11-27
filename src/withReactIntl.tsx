@@ -1,15 +1,15 @@
 import React from 'react';
-import {
-    AnyFramework,
+import type {
+    Renderer,
     PartialStoryFn as StoryFunction,
     StoryContext,
-} from '@storybook/csf';
+} from '@storybook/types';
 import {IntlProvider} from 'react-intl';
-import {useGlobals} from '@storybook/client-api';
+import {useGlobals} from '@storybook/preview-api';
 
 export const withReactIntl = (
-    story: StoryFunction<AnyFramework>,
-    context: StoryContext
+    StoryFn: StoryFunction<Renderer>,
+    context: StoryContext<Renderer>
 ) => {
     const [{locale}] = useGlobals();
     const {
@@ -30,10 +30,10 @@ export const withReactIntl = (
                     defaultLocale={defaultLocale}
                     defaultRichTextElements={defaultRichTextElements}
                 >
-                    <>{story(context)}</>
+                    <>{StoryFn(context)}</>
                 </IntlProvider>
             );
         }
     }
-    return story(context);
+    return StoryFn(context);
 };
