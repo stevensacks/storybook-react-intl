@@ -1,6 +1,6 @@
 {
   "name": "storybook-react-intl",
-  "version": "2.0.8",
+  "version": "2.0.9",
   "description": "Add react-intl support to Storybook",
   "keywords": [
     "storybook-addons",
@@ -102,9 +102,15 @@
     "access": "public"
   },
   "bundler": {
-    "exportEntries": ["src/index.ts"],
-    "managerEntries": ["src/manager.ts"],
-    "previewEntries": ["src/preview.ts"]
+    "exportEntries": [
+      "src/index.ts"
+    ],
+    "managerEntries": [
+      "src/manager.ts"
+    ],
+    "previewEntries": [
+      "src/preview.ts"
+    ]
   },
   "storybook": {
     "displayName": "Storybook react-intl addon",
