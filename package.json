@@ -88,12 +88,6 @@
     "zx": "^7.2.3"
   },
   "peerDependencies": {
-    "@storybook/components": "^7.0.0",
-    "@storybook/manager-api": "^7.0.0",
-    "@storybook/preview-api": "^7.0.0",
-    "@storybook/types": "^7.0.0",
-    "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
-    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0",
     "react-intl": "^5.24.0 || ^6.0.0"
   },
   "peerDependenciesMeta": {
