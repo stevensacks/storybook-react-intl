@@ -3,7 +3,7 @@
 Add react-intl support to Storybook.
 
 Required Versions:
-* storybook - `^7.0.0`
+* storybook - `^8.0.0`
 * react-intl - `^5.24.0 || ^6.0.0`
 
 This Storybook addon assumes your project is already set up with [react-intl](https://formatjs.io/docs/react-intl/), and that it is properly configured and working.
@@ -103,9 +103,9 @@ const preview: Preview = {
     globals: {
         locale: reactIntl.defaultLocale,
         locales: {
-            en: {title: "English", left: '🇺🇸'},
-            fr: {title: "Français", left: '🇫🇷'},
-            ja: {title: "日本語", left: '🇯🇵'},
+            en: {icon: '🇺🇸', title: 'English', right: 'EN'},
+            fr: {icon: '🇫🇷', title: 'Français', right: 'FR'},
+            ja: {icon: '🇯🇵', title: '日本語', right: 'JP'},
         },
     },
     parameters: {
@@ -142,7 +142,3 @@ Once you have finished these steps and launch storybook, you should see a globe 
 Clicking this globe icon will show a dropdown with the locales you defined.
 
 Switching locales will use the strings defined in your messages.
-
-## Migrating to Storybook 7
-
-In `.storybook/preview.ts`, move the locale/locales to be under `globals` instead of `parameters`.

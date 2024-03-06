@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "storybook-react-intl",
   "version": "2.1.0",
   "description": "Add react-intl support to Storybook",
@@ -51,7 +51,7 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "storybook-i18n": "../storybook-i18n"
+    "storybook-i18n": "^2.1.1"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "8.0.0-beta.2",
