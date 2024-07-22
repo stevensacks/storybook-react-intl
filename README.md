@@ -69,7 +69,7 @@ export const reactIntl = {
 ---
 
 ### preview.ts
-In your `preview.ts`, you need to add the `locales` and `locale` to initialGlobals, as well as add `reactIntl` that you exported from the above file to parameters.
+In your `preview.ts`, you need to add the `locales` and `locale` to `initialGlobals` (or `globals` if you're not using the latest version of storybook), as well as add `reactIntl` that you exported from the above file to parameters.
 
 `locales` is an object where the keys are the "ids" of the locales/languages and the values are the names you want to display in the dropdown.
 
