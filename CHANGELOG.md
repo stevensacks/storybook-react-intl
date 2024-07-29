@@ -1,3 +1,18 @@
+# v3.0.2 (Mon Jul 29 2024)
+
+#### ⚠️ Pushed to `main`
+
+- feat: change to storybook 8.2 initialGlobals ([@stevensacks](https://github.com/stevensacks))
+- docs: update README for latest version of storybook initialGlobals ([@stevensacks](https://github.com/stevensacks))
+- ci: build with node 18 ([@stevensacks](https://github.com/stevensacks))
+- docs: update README for storybook intitalGlobals ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v2.1.3 (Fri Mar 15 2024)
 
 #### ⚠️ Pushed to `main`
