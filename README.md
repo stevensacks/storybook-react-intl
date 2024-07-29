@@ -3,6 +3,12 @@
 Add react-intl support to Storybook.
 
 Required Versions:
+
+v3.1.x
+* storybook - `^8.2.0`
+* react-intl - `^5.24.0 || ^6.0.0`
+
+v3.0.x
 * storybook - `^8.0.0`
 * react-intl - `^5.24.0 || ^6.0.0`
 
@@ -69,7 +75,7 @@ export const reactIntl = {
 ---
 
 ### preview.ts
-In your `preview.ts`, you need to add the `locales` and `locale` to `initialGlobals` (or `globals` if you're not using the latest version of storybook), as well as add `reactIntl` that you exported from the above file to parameters.
+In your `preview.ts`, you need to add the `locales` and `locale` to `initialGlobals` (or `globals` if you're not using storybook 8.2+), as well as add `reactIntl` that you exported from the above file to parameters.
 
 `locales` is an object where the keys are the "ids" of the locales/languages and the values are the names you want to display in the dropdown.
 
