@@ -18,11 +18,12 @@ export const withReactIntl = (
     const currentLocale = locale || defaultLocale;
 
     if (currentLocale && reactIntl) {
-        const {formats, messages, defaultRichTextElements} = reactIntl;
+        const {formats, messages, defaultRichTextElements, timeZone} = reactIntl;
         const safeFormats = formats ? formats[currentLocale] : undefined;
         if (messages) {
             return (
                 <IntlProvider
+                    timeZone={timeZone}
                     key={locale}
                     formats={safeFormats}
                     messages={messages[currentLocale]}
