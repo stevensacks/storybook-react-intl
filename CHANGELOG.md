@@ -1,3 +1,17 @@
+# v3.1.2 (Wed Nov 20 2024)
+
+#### ⚠️ Pushed to `main`
+
+- fix: package-lock ([@stevensacks](https://github.com/stevensacks))
+- docs: update changelog ([@stevensacks](https://github.com/stevensacks))
+- feat: upgrade react-intl to v7 ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v3.0.2 (Mon Jul 29 2024)
 
 #### ⚠️ Pushed to `main`
