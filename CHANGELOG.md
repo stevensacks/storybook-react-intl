@@ -1,3 +1,15 @@
+# v3.2.2 (Mon Dec 09 2024)
+
+#### 🐛 Bug Fix
+
+- fix: Remove React from the Bundle [#16](https://github.com/stevensacks/storybook-react-intl/pull/16) ([@kai-leddy](https://github.com/kai-leddy))
+
+#### Authors: 1
+
+- Kai Leddy ([@kai-leddy](https://github.com/kai-leddy))
+
+---
+
 # v3.1.2 (Wed Nov 20 2024)
 
 #### ⚠️ Pushed to `main`
