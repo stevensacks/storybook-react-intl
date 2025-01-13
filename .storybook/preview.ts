@@ -3,7 +3,7 @@ import type {Preview} from '@storybook/react';
 import {reactIntl} from './reactIntl';
 
 const preview: Preview = {
-    globals: {
+    initialGlobals: {
         locale: 'en',
         locales: {
             en: {icon: '🇺🇸', title: 'English', right: 'EN'},
@@ -12,7 +12,6 @@ const preview: Preview = {
         },
     },
     parameters: {
-        actions: {argTypesRegex: '^on[A-Z].*'},
         backgrounds: {
             default: 'light',
         },

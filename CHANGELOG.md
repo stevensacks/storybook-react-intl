@@ -1,3 +1,44 @@
+# v3.2.2 (Mon Dec 09 2024)
+
+#### 🐛 Bug Fix
+
+- fix: Remove React from the Bundle [#16](https://github.com/stevensacks/storybook-react-intl/pull/16) ([@kai-leddy](https://github.com/kai-leddy))
+
+#### Authors: 1
+
+- Kai Leddy ([@kai-leddy](https://github.com/kai-leddy))
+
+---
+
+# v3.1.2 (Wed Nov 20 2024)
+
+#### ⚠️ Pushed to `main`
+
+- fix: package-lock ([@stevensacks](https://github.com/stevensacks))
+- docs: update changelog ([@stevensacks](https://github.com/stevensacks))
+- feat: upgrade react-intl to v7 ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
+# v3.0.2 (Mon Jul 29 2024)
+
+#### ⚠️ Pushed to `main`
+
+- feat: change to storybook 8.2 initialGlobals ([@stevensacks](https://github.com/stevensacks))
+- docs: update README for latest version of storybook initialGlobals ([@stevensacks](https://github.com/stevensacks))
+- ci: build with node 18 ([@stevensacks](https://github.com/stevensacks))
+- docs: update README for storybook intitalGlobals ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v2.1.3 (Fri Mar 15 2024)
 
 #### ⚠️ Pushed to `main`
