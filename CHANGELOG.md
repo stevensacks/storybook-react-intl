@@ -1,3 +1,21 @@
+# v3.2.3 (Mon Jan 20 2025)
+
+#### 🐛 Bug Fix
+
+- feat: add support for timeZone parameter [#13](https://github.com/stevensacks/storybook-react-intl/pull/13) ([@danielhep](https://github.com/danielhep))
+
+#### ⚠️ Pushed to `main`
+
+- ci: update action ([@stevensacks](https://github.com/stevensacks))
+- ci: update to checkout and setup-node v4 ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 2
+
+- Daniel Heppner ([@danielhep](https://github.com/danielhep))
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v3.2.2 (Mon Dec 09 2024)
 
 #### 🐛 Bug Fix
