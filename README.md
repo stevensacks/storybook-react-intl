@@ -70,6 +70,7 @@ export const reactIntl = {
   locales,
   messages,
   formats,
+  timeZone: 'America/New_York', // optional, specify a time zone
 };
 ```
 ---
