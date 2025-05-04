@@ -3,13 +3,13 @@ import type {
     Renderer,
     PartialStoryFn as StoryFunction,
     StoryContext,
-} from '@storybook/types';
+} from 'storybook/internal/types';
 import {IntlProvider} from 'react-intl';
-import {useGlobals} from '@storybook/preview-api';
+import {useGlobals} from 'storybook/preview-api';
 
 export const withReactIntl = (
     StoryFn: StoryFunction<Renderer>,
-    context: StoryContext<Renderer>
+    context: StoryContext<Renderer>,
 ) => {
     const [{locale}] = useGlobals();
     const {
@@ -18,7 +18,8 @@ export const withReactIntl = (
     const currentLocale = locale || defaultLocale;
 
     if (currentLocale && reactIntl) {
-        const {formats, messages, defaultRichTextElements, timeZone} = reactIntl;
+        const {formats, messages, defaultRichTextElements, timeZone} =
+            reactIntl;
         const safeFormats = formats ? formats[currentLocale] : undefined;
         if (messages) {
             return (

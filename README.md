@@ -4,6 +4,10 @@ Add react-intl support to Storybook.
 
 Required Versions:
 
+v4.x
+* storybook - `^9.0.0`
+* react-intl - `^5.24.0 || ^6.0.0`
+
 v3.1.x
 * storybook - `^8.2.0`
 * react-intl - `^5.24.0 || ^6.0.0`
