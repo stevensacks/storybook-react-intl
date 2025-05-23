@@ -1,3 +1,16 @@
+# v4.0.2 (Fri May 23 2025)
+
+#### ⚠️ Pushed to `main`
+
+- Merge branch 'main' of github.com:stevensacks/storybook-react-intl ([@stevensacks](https://github.com/stevensacks))
+- feat: upgrade deps ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v3.2.4 (Sun May 04 2025)
 
 #### ⚠️ Pushed to `main`
