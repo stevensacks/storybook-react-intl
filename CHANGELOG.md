@@ -1,3 +1,15 @@
+# v4.0.5 (Wed Jun 11 2025)
+
+#### ⚠️ Pushed to `main`
+
+- fix: add react to externals to prevent multiple versions ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v4.0.4 (Fri Jun 06 2025)
 
 #### ⚠️ Pushed to `main`
