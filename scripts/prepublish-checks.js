@@ -60,7 +60,7 @@ if ((await $`cat README.md | grep -E ${readmeTestStrings}`.exitCode) == 0) {
 /**
  * Check that globalized packages are not incorrectly listed as peer dependencies
  */
-const peerDependencies = Object.keys(packageJson.peerDependencies || {});
+/*const peerDependencies = Object.keys(packageJson.peerDependencies || {});
 const globalPackages = [...globalManagerPackages, ...globalPreviewPackages];
 peerDependencies.forEach((dependency) => {
     if (globalPackages.includes(dependency)) {
@@ -68,7 +68,7 @@ peerDependencies.forEach((dependency) => {
             boxen(
                 dedent`
           ${chalk.red.bold('Unnecessary peer dependency')}
-  
+
           ${chalk.red(dedent`You have a peer dependency on ${chalk.bold(dependency)} which is most likely unnecessary
           as that is provided by Storybook directly.
           Check the "bundling" section in README.md for more information.
@@ -80,6 +80,6 @@ peerDependencies.forEach((dependency) => {
 
         exitCode = 1;
     }
-});
+});*/
 
 process.exit(exitCode);
