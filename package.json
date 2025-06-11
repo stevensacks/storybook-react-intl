@@ -1,6 +1,6 @@
 {
   "name": "storybook-react-intl",
-  "version": "4.0.4",
+  "version": "4.0.5",
   "description": "Add react-intl support to Storybook",
   "keywords": [
     "storybook-addons",
