@@ -1,5 +1,4 @@
-import type {Preview} from '@storybook/react';
-// @ts-ignore
+import type {Preview} from '@storybook/react-vite';
 import {reactIntl} from './reactIntl';
 
 const preview: Preview = {
