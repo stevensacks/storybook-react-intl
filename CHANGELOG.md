@@ -1,3 +1,21 @@
+# v4.0.8 (Fri Nov 07 2025)
+
+#### 🐛 Bug Fix
+
+- Feat/storybook 10 [#18](https://github.com/stevensacks/storybook-react-intl/pull/18) ([@stevensacks](https://github.com/stevensacks))
+
+#### ⚠️ Pushed to `main`
+
+- chore: upgade release.yml to use node 24 ([@stevensacks](https://github.com/stevensacks))
+- chore: add release.yml to github actions ([@stevensacks](https://github.com/stevensacks))
+- chore: upgrade deps ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v4.0.6 (Fri Jun 13 2025)
 
 #### ⚠️ Pushed to `main`
