@@ -1,3 +1,21 @@
+# v10.0.2 (Thu Jan 29 2026)
+
+#### 🐛 Bug Fix
+
+- build: add react-intl 8 support [#19](https://github.com/stevensacks/storybook-react-intl/pull/19) ([@kzimins-arvatosystems](https://github.com/kzimins-arvatosystems))
+
+#### ⚠️ Pushed to `main`
+
+- fix: remove old release workflow ([@stevensacks](https://github.com/stevensacks))
+- fix: lock file ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 2
+
+- Konstantīns Zimins ([@kzimins-arvatosystems](https://github.com/kzimins-arvatosystems))
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v4.0.8 (Fri Nov 07 2025)
 
 #### 🐛 Bug Fix
