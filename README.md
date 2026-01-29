@@ -6,11 +6,11 @@ Required Versions:
 
 v10.x
 * storybook - `^10.0.0`
-* react-intl - `^5.24.0 || ^6.0.0`
+* react-intl - `^5.24.0 || ^6.0.0 || ^7.0.0 || ^8.0.0`
 
 v4.x
 * storybook - `^9.0.0`
-* react-intl - `^5.24.0 || ^6.0.0`
+* react-intl - `^5.24.0 || ^6.0.0 || ^7.0.0`
 
 v3.1.x
 * storybook - `^8.2.0`
