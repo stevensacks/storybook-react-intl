@@ -1,3 +1,20 @@
+# v10.1.2 (Fri Apr 17 2026)
+
+#### 🐛 Bug Fix
+
+- React-intl v10 support [#20](https://github.com/stevensacks/storybook-react-intl/pull/20) ([@kzimins-arvatosystems](https://github.com/kzimins-arvatosystems))
+
+#### ⚠️ Pushed to `main`
+
+- feat: increment version to support react-intl@10.x ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 2
+
+- Konstantīns Zimins ([@kzimins-arvatosystems](https://github.com/kzimins-arvatosystems))
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v10.0.4 (Tue Mar 10 2026)
 
 #### ⚠️ Pushed to `main`
