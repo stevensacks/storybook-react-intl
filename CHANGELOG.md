@@ -1,3 +1,15 @@
+# v10.2.2 (Tue Sep 15 2026)
+
+#### 🐛 Bug Fix
+
+- chore: bump storybook-i18n to 10.1.2 and migrate to pnpm [#22](https://github.com/stevensacks/storybook-react-intl/pull/22) ([@stevensacks](https://github.com/stevensacks))
+
+#### Authors: 1
+
+- Steven Sacks ([@stevensacks](https://github.com/stevensacks))
+
+---
+
 # v10.1.2 (Fri Apr 17 2026)
 
 #### 🐛 Bug Fix
