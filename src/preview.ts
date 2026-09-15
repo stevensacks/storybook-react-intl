@@ -6,7 +6,7 @@ const i18nDecorators = i18n?.decorators || [];
 
 const preview: ProjectAnnotations<Renderer> = {
     ...i18n,
-    // @ts-ignore
+    // @ts-expect-error spreading i18n's ProjectAnnotations loses the decorators type narrowing
     decorators: [...i18nDecorators, withReactIntl],
 };
 

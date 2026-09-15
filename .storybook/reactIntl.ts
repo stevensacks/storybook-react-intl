@@ -2,6 +2,7 @@ import en from '../src/stories/locales/en';
 import fr from '../src/stories/locales/fr';
 import ja from '../src/stories/locales/ja';
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const messages: Record<string, any> = {en, fr, ja};
 
 const locales = ['en', 'fr', 'ja'];
