@@ -109,6 +109,28 @@ const preview: Preview = {
 export default preview;
 ```
 
+If your `preview.ts` uses CSF Factories (`definePreview`, the default format in Storybook 11), Storybook only loads the preview annotations of addons that you register in `addons`, so call this addon there. This addon already includes [storybook-i18n](https://github.com/stevensacks/storybook-i18n), so you do not register that one separately.
+
+```typescript
+import {definePreview} from '@storybook/react-vite';
+import addon from 'storybook-react-intl';
+import {reactIntl} from './reactIntl';
+
+export default definePreview({
+    addons: [addon()],
+    initialGlobals: {
+        locale: reactIntl.defaultLocale,
+        locales: {
+            en: 'English',
+            de: 'Deutsche',
+        },
+    },
+    parameters: {
+        reactIntl,
+    },
+});
+```
+
 You can also set locales to Storybook compatible objects as [documented in the storybook-i18n](https://github.com/stevensacks/storybook-i18n#end-users) addon (which is included as part of this addon).
 
 ```javascript
